@@ -1,0 +1,40 @@
+/* Reset css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+/* 
+1.Vi tri
+2, Kich thuoc
+3. Mau sac
+4. Styte (font, theme,....)
+ */
+#main {
+}
+
+#header {
+  height: 46px;
+  background-color: black;
+}
+#nav {
+}
+#nav li {
+  display: inline-block;
+}
+#nav li a {
+  color: white;
+  text-decoration: none;
+}
+#nav .subnav {
+  display: none;
+}
+
+#slider {
+}
+
+#content {
+}
+
+#footer {
+}
