@@ -14,6 +14,9 @@ html {
 3. Mau sac
 4. Styte (font, theme,....)
  */
+.white-color {
+  color: white !important;
+}
 #main {
 }
 
@@ -111,6 +114,124 @@ html {
 }
 #content {
 }
-
+#content .content-section {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 64px 0;
+}
+#content .section-heading {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+#content .section-slogan {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 25px;
+  font-style: italic;
+  opacity: 0.7;
+}
+#content .about-content {
+  font-size: 15px;
+  margin-top: 25px;
+  text-align: justify;
+  line-height: 1.4;
+}
+#content .member {
+  margin-top: 48px;
+}
+#content .member-item {
+  float: left;
+  text-align: center;
+  width: 33.33333%;
+}
+#content .member-name {
+  font-size: 15px;
+}
+#content .member-avt {
+  margin-top: 15px;
+  width: 154px;
+  border-radius: 4px;
+}
+.clear {
+  clear: both;
+}
+.tour-section {
+  background: black;
+}
+.ticket-list {
+  background-color: white;
+  margin-top: 40px;
+  list-style: none;
+}
+.ticket-list li {
+  color: #757575;
+  font-size: 15px;
+  padding: 11px 16px;
+  border-bottom: 1px solid #ddd;
+}
+.ticket-list .sold-out {
+  background-color: #f44336;
+  color: white;
+  padding: 3px 4px;
+  margin-left: 16px;
+}
+.ticket-list .quantily {
+  float: right;
+  width: 24px;
+  height: 24px;
+  background-color: black;
+  color: white;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 24px;
+  margin-top: -2px;
+}
+/* Place */
+.places-list {
+  margin: 32px -8px 0;
+  padding-bottom: 48px;
+}
+.place-item {
+  float: left;
+  width: 33.333333%;
+  padding: 0 8px;
+}
+.place-img {
+  width: 100%;
+  display: block;
+}
+.place-img:hover {
+  opacity: 0.6;
+}
+.place-boby {
+  background-color: white;
+  padding: 16px;
+  font-size: 15px;
+}
+.place-heading {
+}
+.place-time {
+  margin-top: 15px;
+  color: #757575;
+}
+.place-description {
+  line-height: 1.4;
+}
+.place-buy-btn {
+  color: #fff;
+  background-color: #000;
+  text-decoration: none;
+  padding: 11px 16px;
+  display: inline-block;
+  margin-top: 15px;
+}
+.place-buy-btn:hover {
+  color: black;
+  background-color: #ccc;
+}
 #footer {
 }
