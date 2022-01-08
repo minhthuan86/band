@@ -228,6 +228,7 @@ html {
   padding: 11px 16px;
   display: inline-block;
   margin-top: 15px;
+  border: none;
 }
 .place-buy-btn:hover {
   color: black;
