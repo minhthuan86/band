@@ -148,7 +148,7 @@ html {
   width: 800px;
   margin-left: auto;
   margin-right: auto;
-  padding: 64px 0;
+  padding: 64px 0 122px;
 }
 #content .section-heading {
   font-size: 30px;
@@ -291,6 +291,7 @@ html {
   padding: 10px 16px;
   float: right;
   border: none;
+  cursor: pointer;
 }
 .contact-form .form-submit-btn:hover {
   background-color: #ccc;
@@ -298,6 +299,26 @@ html {
 }
 /* Footer */
 #footer {
+  padding: 64px 16px;
+  text-align: center;
+}
+.social-list {
+  font-size: 24px;
+}
+.social-list a {
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+}
+.social-list a:hover {
+  color: rgba(0, 0, 0, 0.4);
+}
+.copyright {
+  margin-top: 16px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.copyright a {
+  color: rgba(0, 0, 0, 0.6);
+  margin-left: 4px;
 }
 .modal {
   position: fixed;
