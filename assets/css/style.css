@@ -17,6 +17,36 @@ html {
 .white-color {
   color: white !important;
 }
+.mt-8 {
+  margin-top: 8px !important;
+}
+.mt-16 {
+  margin-top: 16px !important;
+}
+.row {
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.column {
+  float: left;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.col-third {
+  width: calc(33.33333% - 16px);
+}
+.col-half {
+  width: calc(50% - 16px);
+}
+.col-full {
+  width: calc(100% - 16px);
+}
+/* main */
 #main {
 }
 
@@ -192,13 +222,15 @@ html {
 }
 /* Place */
 .places-list {
-  margin: 32px -8px 0;
-  padding-bottom: 48px;
+  /* margin: 32px -8px 0;
+  padding-bottom: 48px; */
+  margin-top: 32px;
+  margin-bottom: 48px;
 }
 .place-item {
-  float: left;
   width: calc(33.333% - 16px);
-  padding: 0 8px;
+  /* float: left;
+  padding: 0 8px; */
 }
 .place-img {
   width: 100%;
@@ -234,6 +266,37 @@ html {
   color: black;
   background-color: #ccc;
 }
+/* Contact */
+.contact-content {
+  margin-top: 48px;
+}
+.contact-infor {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.contact-infor i[class*="ti-"] {
+  width: 30px;
+  display: inline-block;
+}
+.contact-form {
+  font-size: 15px;
+}
+.contact-form .form-control {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.contact-form .form-submit-btn {
+  background-color: #000;
+  color: white;
+  padding: 10px 16px;
+  float: right;
+  border: none;
+}
+.contact-form .form-submit-btn:hover {
+  background-color: #ccc;
+  color: #000;
+}
+/* Footer */
 #footer {
 }
 .modal {

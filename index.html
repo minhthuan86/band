@@ -110,8 +110,8 @@
               <li>November <span class="quantily">3</span></li>
             </ul>
             <!-- Places -->
-            <div class="places-list">
-              <div class="place-item">
+            <div class="row places-list">
+              <div class="col-third column">
                 <img
                   src="./assets/img/tour/newyork.jpg"
                   alt="New Youk"
@@ -128,7 +128,7 @@
                   </button>
                 </div>
               </div>
-              <div class="place-item">
+              <div class="col-third column">
                 <img
                   src="./assets/img/tour/paris.jpg"
                   alt="New Youk"
@@ -145,7 +145,7 @@
                   </button>
                 </div>
               </div>
-              <div class="place-item">
+              <div class="col-third column">
                 <img
                   src="./assets/img/tour/sanfran.jpg"
                   alt="New Youk"
@@ -171,6 +171,66 @@
         <div class="content-section">
           <h2 class="section-heading">Contact</h2>
           <p class="section-slogan">Fan? Drop a note!</p>
+          <div class="row contact-content">
+            <div class="column col-half contact-infor">
+              <p>
+                <i class="ti-location-pin"></i>
+                Chicago,US
+              </p>
+              <p>
+                <i class="ti-mobile"></i>
+                Phone: +00 151515
+              </p>
+              <p>
+                <i class="ti-email"></i>
+                Email: mail@mail.com
+              </p>
+            </div>
+            <div class="column col-half contact-form">
+              <form action="">
+                <div class="row">
+                  <div class="column col-half">
+                    <input
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Name"
+                      required
+                      class="form-control"
+                    />
+                  </div>
+                  <div class="column col-half">
+                    <input
+                      type="email"
+                      name=""
+                      id=""
+                      placeholder="Email"
+                      required
+                      class="form-control"
+                    />
+                  </div>
+                </div>
+                <div class="row mt-8">
+                  <div class="column col-full">
+                    <input
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Message"
+                      required
+                      class="form-control"
+                      style="width: calc(100% - 16px)"
+                    />
+                  </div>
+                </div>
+                <input
+                  class="form-submit-btn mt-16"
+                  type="submit"
+                  value="SEND"
+                />
+              </form>
+            </div>
+          </div>
         </div>
       </div>
       <div id="footer"></div>
