@@ -48,8 +48,6 @@ html {
   width: calc(100% - 16px);
 }
 /* main */
-#main {
-}
 
 #header {
   height: 46px;
@@ -60,11 +58,10 @@ html {
   right: 0;
   z-index: 1;
 }
-#nav {
+#nav > li {
   display: inline-block;
 }
 #nav li {
-  display: inline-block;
   position: relative;
 }
 #nav li a {
@@ -85,14 +82,17 @@ html {
   color: black;
   background-color: #ccc;
 }
+#nav{
+  display: inline-block;
+}
 #nav .subnav {
   min-width: 160px;
-  display: none;
   position: absolute;
   background-color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   top: 100%;
   left: 0;
+  display: none;
 }
 
 #nav .subnav a {
@@ -107,21 +107,31 @@ html {
   width: 100%;
 }
 
-#header .search-icon {
+#header .search-icon, #header .menu-icon {
   color: white;
   font-size: 20px;
   line-height: 46px;
   padding: 0 21px;
 }
-#header .searchbtn {
-  float: right;
-}
+
 #header .searchbtn:hover {
   cursor: pointer;
   background-color: #f44336;
 }
+.mobile-menu:hover {
+  background-color: #ccc;
+}
+#header .mobile-menu,
 #header .searchbtn {
   font-size: 20px;
+  float: right;
+  /* margin-top: -48px; */
+}
+  #header .mobile-menu{
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 #slider {
   position: relative;
@@ -147,6 +157,7 @@ html {
 }
 #content .content-section {
   width: 800px;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding: 64px 0 122px;
