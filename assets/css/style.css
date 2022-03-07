@@ -93,7 +93,9 @@ html {
   top: 100%;
   left: 0;
   display: none;
+  list-style:none
 }
+
 
 #nav .subnav a {
   color: black;
